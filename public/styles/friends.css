@@ -1,0 +1,104 @@
+.heading {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 300;
+}
+
+.send-req {
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  gap: 20px;
+}
+
+input {
+  font-size: 24px;
+}
+
+button {
+  background-color: #d2defc;
+  border-radius: 10%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: #a6bdf7;
+}
+
+#send-req-error {
+  color: maroon;
+  font-size: 16px;
+  align-self: center;
+  background-color: #fce1e3;
+  padding: 5px 20px;
+  border: 1px solid maroon;
+  border-radius: 5%;
+  visibility: hidden;
+}
+
+.pending {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 24px;
+  color: #76abae;
+  align-items: center;
+}
+
+.pending:hover {
+  border-radius: 2.5%;
+  background-color: black;
+  color: white;
+}
+.choices {
+  display: flex;
+  gap: 25px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.accept:hover {
+  color: darkgreen;
+  font-size: 28px;
+}
+
+.reject:hover {
+  color: maroon;
+  font-size: 28px;
+}
+
+.pending-reqs {
+  margin-bottom: 30px;
+}
+
+.friend {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 24px;
+  color: #76abae;
+  align-items: center;
+}
+
+.friend:hover {
+  border-radius: 2.5%;
+  background-color: black;
+  color: white;
+}
+
+.friend i:hover {
+  color: lightskyblue;
+  font-size: 28px;
+}
+
+.friends {
+  margin-bottom: 60px;
+}

@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Roboto";
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: #7fa1c3;
+  border-bottom: 1px solid black;
+}
+
+.nav-item {
+  font-size: 25px;
+  padding: 15px 25px;
+}
+
+.nav-item:hover {
+  background-color: #a0bfde;
+}
+
+.selected {
+  border-left: 2.5px solid navy;
+  border-right: 2.5px solid navy;
+}
+
+.container {
+  flex: 1;
+  padding: 15px 15px;
+  background-color: #222831;
+}

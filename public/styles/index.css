@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.friends {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.friend {
+  padding: 20px;
+  background-color: #eeeeee;
+  border: 1px solid #686d76;
+}
+
+.friend:hover {
+  font-size: larger;
+}
+
+.unseen {
+  background-color: #b8fccd;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  background-color: #55679c;
+  width: 100%;
+}
+
+.header {
+  background-color: navy;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  padding-top: 10px;
+  overflow-y: scroll;
+}
+
+.message {
+  border: solid 2px black;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+  display: block;
+  width: fit-content;
+  max-width: 60%;
+}
+
+.sent {
+  align-self: flex-end;
+  background-color: azure;
+}
+
+.received {
+  background-color: bisque;
+}
+
+.main-filler {
+  background-color: #55679c;
+  flex: 1;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  width: 60%;
+  padding-right: 20px;
+}
+
+textarea {
+  resize: none;
+  box-sizing: border-box;
+  font-size: 24px;
+  padding: 10px;
+}
+
+form button {
+  margin-top: 10px;
+  align-self: end;
+  width: 50px;
+  height: 50px;
+  background-color: darkgreen;
+  color: white;
+  font-size: 24px;
+  border: 1px solid black;
+}
+
+form button:hover {
+  background-color: green;
+}
