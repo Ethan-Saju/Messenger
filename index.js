@@ -19,7 +19,7 @@ const db = new pg.Client({
   user: "postgres",
   host: "localhost",
   database: "messenger",
-  password: "ethan", //replace
+  password: "YOUR_PASSWORD", //replace
   port: 5432,
 });
 db.connect();
@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use(
   session({
-    secret: "ETHAN", //replace
+    secret: "YOUR_SECRET", //replace
     resave: false,
     saveUninitialized: true,
     cookie: { secure: false },
